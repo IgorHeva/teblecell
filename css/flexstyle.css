@@ -1,0 +1,37 @@
+.main{
+    margin: 0% auto;
+    width: 1200px;
+    text-align: justify;
+    text-align: center;
+    outline: 2px solid black;
+}
+.block1{
+    background:red;
+    width: 400px;
+}
+.block2{
+    background-color: brown;
+
+}
+.block3{
+    background: burlywood;
+}
+.block4{
+    background: blueviolet;
+}
+
+div{
+    outline: 2px solid black;
+} 
+.widht400{
+    width: 400px;
+
+}
+.widht800{
+    width: 800px;
+
+}
+.flex{
+    display: flex;
+    justify-content:center;
+}

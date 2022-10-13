@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: inline-block;
+
+}
+
+ul{
+    text-align: center;
+    font-size: 0;
+
+    padding: 0;
+    position: relative;
+    z-index: 10;
+}
+ul li{
+    display: inline-block;
+    font-size: 30px;
+    background: red;
+    position: relative;
+    padding: 0;
+}
+ul li+li{
+    border-left: 2px solid black;
+}
+
+ul li:hover{
+    background: blue;
+}
+ul li a{
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    display: block;
+    border: 2px solid black;
+}
+ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+}
+ul li:hover ul{
+    display:block;
+}
+ul ul li{
+    border: none;
+    display: block; 
+    position: relative; 
+}
+.ul2{
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+.gridclass{
+    position:relative;
+}
+.grid{
+    position: absolute;
+    right: 100%;
+}
+

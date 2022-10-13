@@ -1,0 +1,72 @@
+
+
+div{
+    outline: 2px solid black;
+    background-color: coral;
+} 
+.area_teplate{
+    width: 1200px;
+    display: grid;
+    grid-template-areas:
+        "A B C"
+        "D D E"
+        "D D F"
+        "G G F"
+        "G G H"
+        "I J J"
+        "I K L"
+        "M M N"
+        "O P N"
+        "Q P N";   
+    }
+.a{
+    grid-area: A;
+}
+.b{
+    grid-area: B;
+}
+.c{
+    grid-area: C;
+}
+.d{
+    grid-area: D;
+}
+.e{
+    grid-area: E;
+}
+.f{
+    grid-area: F;
+}
+.g{
+    grid-area: G;
+}
+.h{
+    grid-area: H;
+}
+.i{
+    grid-area: I;
+}
+.j{
+    grid-area: J;
+}
+.k{
+    grid-area: K;
+}
+.l{
+    grid-area: L;
+}
+.m{
+    grid-area: M;
+}
+.o{
+    grid-area: O;
+}
+.q{
+    grid-area: Q;
+}
+.p{
+    grid-area: P;
+}
+.n{
+    grid-area: N;
+}
